@@ -8,5 +8,4 @@ const quizMemes = JSON.parse(fs.readFileSync('./topics/memes.json', 'utf-8'));
 
 // console.log(Object.values(quizMemes[0]));
 
-prompt([...quizMemes
-]).then((answers) => console.log(answers));
+prompt([...quizMemes]).then((answers) => console.log(answers));
